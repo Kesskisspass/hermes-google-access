@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Règles de confidentialité — Hermes (usage personnel)</title>
+<style>
+  :root { color-scheme: light; }
+  body { margin: 0 auto; max-width: 40rem; padding: 3rem 1.25rem 6rem;
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         color: #1f2421; background: #fbfbf9; }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.05rem; margin: 2.2rem 0 .6rem; }
+  p, li { color: #333a35; }
+  .lede { color: #5c6660; margin-top: 0; }
+  a { color: #2f5d44; }
+  code { background: #eceee9; padding: .1rem .35rem; border-radius: .25rem; font-size: .9em; }
+  footer { margin-top: 3rem; font-size: .85rem; color: #6b746e; }
+</style>
+</head>
+<body>
+  <h1>Règles de confidentialité</h1>
+  <p class="lede">Hermes — application personnelle. Dernière mise à jour : 19 septembre 2026.</p>
+
+  <h2>Quelles données sont consultées</h2>
+  <p>Uniquement celles de son propriétaire, et uniquement dans les limites qu'il a autorisées :</p>
+  <ul>
+    <li><strong>Google Agenda</strong> — lecture et écriture : consulter, créer, modifier et supprimer
+        <em>ses propres</em> événements.</li>
+    <li><strong>Google Tasks</strong> — lecture et écriture : consulter et créer <em>ses propres</em> tâches.</li>
+    <li><strong>Gmail</strong> — <strong>lecture seule</strong> : rechercher et lire <em>ses propres</em> messages.
+        L'application ne peut ni envoyer, ni modifier, ni supprimer de courrier.</li>
+  </ul>
+
+  <h2>Où vont ces données</h2>
+  <p>
+    Nulle part. Elles ne sont ni transmises, ni revendues, ni partagées avec un tiers, ni utilisées
+    à des fins publicitaires ou d'analyse. L'application n'embarque aucun traceur et n'envoie aucune
+    statistique d'usage.
+  </p>
+  <p>
+    Les données affichées le sont à la demande, sur la machine de son propriétaire, et ne sont
+    conservées que sous forme de <strong>jeton d'accès</strong> stocké localement
+    (<code>~/.hermes/google_token.json</code>), protégé par les droits du système de fichiers de
+    cette machine. Aucune copie n'est envoyée sur un serveur intermédiaire.
+  </p>
+
+  <h2>Durée de conservation</h2>
+  <p>
+    Le jeton d'accès est conservé jusqu'à sa révocation par son propriétaire. Aucun contenu de
+    message, d'événement ou de tâche n'est conservé au-delà de la consultation qui le demande.
+  </p>
+
+  <h2>Retirer l'accès</h2>
+  <p>
+    À tout moment, et sans passer par l'application :
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+    La révocation prend effet immédiatement.
+  </p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:kesskisspass@gmail.com">kesskisspass@gmail.com</a></p>
+
+  <footer>
+    <a href="./index.html">Retour à la page d'accueil</a>
+  </footer>
+</body>
+</html>
